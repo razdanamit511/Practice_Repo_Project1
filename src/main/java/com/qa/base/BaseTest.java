@@ -82,9 +82,7 @@ public class BaseTest {
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			extentTest.fail("Test - Failed !!!!!");
 
-			CommonUtils.CaptureScreenshot(result.getTestContext().getName() + "_" + result.getMethod().getMethodName());
-
-			extentTest.addScreenCaptureFromPath(CommonUtils
+			extentTest.addScreenCaptureFromBase64String(CommonUtils
 					.CaptureScreenshot(result.getTestContext().getName() + "_" + result.getMethod().getMethodName()));
 
 		} else if (result.getStatus() == ITestResult.SKIP) {

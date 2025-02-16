@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Base64;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -25,9 +26,10 @@ public class CommonUtils extends BaseTest {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 
-		File src = ts.getScreenshotAs(OutputType.FILE);
+		String src = ts.getScreenshotAs(OutputType.BASE64);
 
-		File trg = new File("./test-output/ExtentReports/" + Subfoldername + "/" + substring + ".png");
+	/*	File trg = new File("./test-output/ExtentReports/" + Subfoldername + substring + ".png");
+	
 		try {
 			FileUtils.copyFile(src, trg);
 
@@ -40,8 +42,8 @@ public class CommonUtils extends BaseTest {
 			e.printStackTrace();
 
 		}
-
-		return SSFilePath;
+*/
+		return src;
 	}
 
 }
