@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T14:01:55 IST" name="Suite" finished-at="2025-02-16T14:02:07 IST" duration-ms="12063">
+  <suite started-at="2025-02-16T14:29:35 IST" name="Suite" finished-at="2025-02-16T14:29:45 IST" duration-ms="9887">
     <groups>
     </groups>
-    <test started-at="2025-02-16T14:01:55 IST" name="Test" finished-at="2025-02-16T14:02:07 IST" duration-ms="12063">
+    <test started-at="2025-02-16T14:29:35 IST" name="Test" finished-at="2025-02-16T14:29:45 IST" duration-ms="9887">
       <class name="com.qa.testcases.TS001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:49 IST" name="setup" finished-at="2025-02-16T14:01:55 IST" duration-ms="6330" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:32 IST" name="setup" finished-at="2025-02-16T14:29:35 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:55 IST" name="MethodStartup" finished-at="2025-02-16T14:01:55 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:36 IST" name="MethodStartup" finished-at="2025-02-16T14:29:36 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodStartup -->
-        <test-method signature="TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:55 IST" name="TS001_TC001" description="Verify that the Create an Account form contains below mentioned fields : -
+        <test-method signature="TS001_TC001()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:36 IST" name="TS001_TC001" description="Verify that the Create an Account form contains below mentioned fields : -
 
 Labels: -
 &quot;First Name&quot;
@@ -44,11 +44,11 @@ Textboxes:-
 &quot;Confirm Password&quot; textbox
 
 Buttons:-
-&quot;Create an account&quot; button" finished-at="2025-02-16T14:01:59 IST" duration-ms="4027" status="PASS">
+&quot;Create an account&quot; button" finished-at="2025-02-16T14:29:39 IST" duration-ms="3482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TS001_TC001 -->
-        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:59 IST" name="MethodClosure" finished-at="2025-02-16T14:01:59 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:39 IST" name="MethodClosure" finished-at="2025-02-16T14:29:39 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@ Buttons:-
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodClosure -->
-        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:59 IST" name="MethodStartup" finished-at="2025-02-16T14:01:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:39 IST" name="MethodStartup" finished-at="2025-02-16T14:29:39 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,11 +75,11 @@ Buttons:-
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodStartup -->
-        <test-method signature="TS001_TC002()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:01:59 IST" name="TS001_TC002" description="Verify presence of valid placeholder under &quot;Password&quot; label / Textbox.Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.&quot;" finished-at="2025-02-16T14:02:01 IST" duration-ms="1834" status="PASS">
+        <test-method signature="TS001_TC002()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:39 IST" name="TS001_TC002" description="Verify presence of valid placeholder under &quot;Password&quot; label / Textbox.Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored.&quot;" finished-at="2025-02-16T14:29:41 IST" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TS001_TC002 -->
-        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:01 IST" name="MethodClosure" finished-at="2025-02-16T14:02:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:41 IST" name="MethodClosure" finished-at="2025-02-16T14:29:41 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,11 @@ Buttons:-
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodClosure -->
-        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:01 IST" name="MethodStartup" finished-at="2025-02-16T14:02:01 IST" duration-ms="1" status="PASS">
+        <test-method signature="TS001_TC003()[pri:3, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:41 IST" name="TS001_TC003" description="Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields." finished-at="2025-02-16T14:29:42 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC003 -->
+        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:41 IST" name="MethodStartup" finished-at="2025-02-16T14:29:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,11 +110,7 @@ Buttons:-
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodStartup -->
-        <test-method signature="TS001_TC003()[pri:3, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:01 IST" name="TS001_TC003" description="Verify that system generates a validation message when clicking on submit button without filling all the mandatory fields." finished-at="2025-02-16T14:02:03 IST" duration-ms="1689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TS001_TC003 -->
-        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:03 IST" name="MethodClosure" finished-at="2025-02-16T14:02:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:42 IST" name="MethodClosure" finished-at="2025-02-16T14:29:42 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,23 +121,7 @@ Buttons:-
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodClosure -->
-        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:03 IST" name="MethodStartup" finished-at="2025-02-16T14:02:03 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.testcases.TS001.TS001_TC004()]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@1729ec00]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MethodStartup -->
-        <test-method signature="TS001_TC004()[pri:4, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:03 IST" name="TS001_TC004" description="Verify that entering blank spaces on mandatory fields lead to validation error" finished-at="2025-02-16T14:02:05 IST" duration-ms="2408" status="FAIL">
+        <test-method signature="TS001_TC004()[pri:4, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:42 IST" name="TS001_TC004" description="Verify that entering blank spaces on mandatory fields lead to validation error" finished-at="2025-02-16T14:29:44 IST" duration-ms="1906" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -185,7 +169,23 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TS001_TC004 -->
-        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:05 IST" name="MethodClosure" finished-at="2025-02-16T14:02:06 IST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:42 IST" name="MethodStartup" finished-at="2025-02-16T14:29:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.TS001.TS001_TC004()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1729ec00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodStartup -->
+        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:44 IST" name="MethodClosure" finished-at="2025-02-16T14:29:44 IST" duration-ms="268" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -196,7 +196,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodClosure -->
-        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:06 IST" name="MethodStartup" finished-at="2025-02-16T14:02:06 IST" duration-ms="1" status="PASS">
+        <test-method signature="TS001_TC005()[pri:5, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:44 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" finished-at="2025-02-16T14:29:45 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS001_TC005 -->
+        <test-method is-config="true" signature="MethodStartup(java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:44 IST" name="MethodStartup" finished-at="2025-02-16T14:29:44 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,11 +216,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodStartup -->
-        <test-method signature="TS001_TC005()[pri:5, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:06 IST" name="TS001_TC005" description="Verify that the password is in encrypted form when entered" finished-at="2025-02-16T14:02:07 IST" duration-ms="1542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TS001_TC005 -->
-        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:07 IST" name="MethodClosure" finished-at="2025-02-16T14:02:07 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="MethodClosure(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:45 IST" name="MethodClosure" finished-at="2025-02-16T14:29:45 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,7 +227,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodClosure -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:02:07 IST" name="teardown" finished-at="2025-02-16T14:02:09 IST" duration-ms="1533" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.TS001@48f2bd5b]" started-at="2025-02-16T14:29:45 IST" name="teardown" finished-at="2025-02-16T14:29:46 IST" duration-ms="819" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
