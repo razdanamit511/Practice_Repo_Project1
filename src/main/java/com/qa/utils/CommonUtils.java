@@ -27,7 +27,7 @@ public class CommonUtils extends BaseTest {
 
 		File src = ts.getScreenshotAs(OutputType.FILE);
 
-		File trg = new File("./Screenshots/" + Subfoldername + "/" + substring + ".png");
+		File trg = new File("./test-output/screenshots/" + Subfoldername + "/" + substring + ".png");
 		try {
 			FileUtils.copyFile(src, trg);
 
