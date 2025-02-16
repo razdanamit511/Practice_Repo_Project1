@@ -16,7 +16,7 @@ public class CommonUtils extends BaseTest {
 
 	public static String CaptureScreenshot(String substring) {
 
-		String SSFilePath = null;
+		//String SSFilePath = null;
 
 		LocalDateTime dt = LocalDateTime.now();
 
@@ -42,7 +42,7 @@ public class CommonUtils extends BaseTest {
 			e.printStackTrace();
 
 		}
-*/
+   */
 		return src;
 	}
 
